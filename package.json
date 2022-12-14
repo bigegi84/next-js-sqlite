@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-"postinstall": "ts-node -O \"{\\\"module\\\":\\\"commonjs\\\"}\" ./scripts/resetDatabase.ts",
+    "postinstall-disable": "ts-node -O \"{\\\"module\\\":\\\"commonjs\\\"}\" ./scripts/resetDatabase.ts",
     "reset-database": "ts-node -O \"{\\\"module\\\":\\\"commonjs\\\"}\" ./scripts/resetDatabase.ts"
   },
   "dependencies": {
