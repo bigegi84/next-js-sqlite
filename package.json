@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "ts-node -O \"{\\\"module\\\":\\\"commonjs\\\"}\" test/main.ts",
     "lint": "next lint",
     "postinstall-disable": "ts-node -O \"{\\\"module\\\":\\\"commonjs\\\"}\" ./scripts/resetDatabase.ts",
     "reset-database": "ts-node -O \"{\\\"module\\\":\\\"commonjs\\\"}\" ./scripts/resetDatabase.ts"
@@ -25,6 +26,7 @@
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",
+    "sequelize": "^6.27.0",
     "sqlite3": "^5.0.5"
   },
   "devDependencies": {
